@@ -1,5 +1,4 @@
 import { StyleSheet} from 'react-native'
-import React from 'react'
 
 const styles = StyleSheet.create({
     carContainer:{
@@ -25,6 +24,16 @@ const styles = StyleSheet.create({
         resizeMode:'cover',
         position:'absolute',
     },
+
+    buttonTotal:{
+        position:'absolute',
+        width:'100%',
+        bottom:50,
+    },
+
+    taglineCTA:{
+        textDecorationLine:'underline',
+    }
 
 })
 
